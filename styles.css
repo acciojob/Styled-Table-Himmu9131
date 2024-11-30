@@ -1,1 +1,26 @@
 /* your code */
+#t{
+    width:100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+th,td{
+    padding: 5px;
+    text-align: left;
+   
+
+}
+th {
+    background-color: #1E5A92;
+    color: white; 
+}
+tr:nth-child(even){
+    background-color: rgb(243, 240, 240);
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+tr:hover{
+    background-color:  #f9fbfd;
+}
